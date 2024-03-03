@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3caca;
+        }
+
+        header {
+            background-color: #fc8019;
+            padding: 15px;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .restaurant {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .restaurant h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .restaurant p {
+            margin-top: 5px;
+            color: #666;
+        }
+
+        .food-item {
+            padding: 5px 0;
+        }
+
+        .food-item:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .restaurant .order-button {
+            background-color: #fc8019;
+            color: #fff;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .order-button:hover {
+            background-color: #ff9933;
+        }
+        .restaurant .order-button {
+            background-color: #fc8019;
+            color: #fff;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+            text-decoration: none; /* Remove default underline */
+        }
+
+        
+
+        .food-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            /* margin-right: 5px;  */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FOOD ITEMS</h1>
+    </header>
+    <div class="container">
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="choleBhature.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Chole Bhature</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹100</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="RaganJosh.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Ragan Josh</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹150</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="ButterChicken.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Butter Chicken</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹200</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="GrandDesiParatha.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Paratha</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹20</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="DesiChulha.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Paneer Masala</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹180</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="LucknowExpress.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Sabzi Kichdi</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹80</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="TheMealsJunction" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>North Indian Thali</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹180</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+        <div class="restaurant">
+            <div>
+                <img class="food-image" src="awadhiBiriyani.jpg" alt="Thatte Idli">
+            </div>
+            <div>
+                <h2>Awadhi Biriyani</h2>
+                <div class="food-menu">
+                    <span class="food-item">₹280</span><br>
+                    <span class="food-item">Serves 1</span>
+                </div>
+            </div>
+            <a class="order-button" href="cart.html" target="_blank">Add to Cart</a>
+        </div>
+    </div>
+</body>
+</html>
