@@ -4,22 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: blanchedalmond;
+            text-align: center;
+        }
+
+        h2 {
+            color: brown;
+            font-size: 100px;
+            padding-bottom: 200px;
+        }
+
+        img {
+            margin: 6px;
+            display: block; /* Ensure images are displayed as blocks */
+            margin-left: auto; /* Center images horizontally */
+            margin-right: auto;
+        }
+
+        span {
+            font-size: xx-large;
+            display: block; /* Ensure text appears on new lines */
+            margin-top: 10px; /* Add some spacing between image and text */
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            margin: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    
-    <h2 style="color: brown; font-size: 100px; background-color: blanchedalmond; border: 5px; padding-bottom: 200px; text-align: center;">ORDER FOOD ONLINE <img src="images.jpg" alt="" style="image-orientation: from-image; padding-top: 100px; text-align: center;"></h2>
-    <a href="biriyani.html" target="_blank" ><img src="download.jpg" alt="BIRIYANI"  width="200px" height="200px" style="margin: 6px;" ></a>
-    <a href="north_indian.html" target="_blank"><img src="north_indian.jpg" alt="" width="200px" height="200px" style="margin: 6px;"></a>
-    <a href="pizza.html" target="_blank"><img src="download (1).jpg" alt="" width="200px" height="200px" style="margin: 6px;"></a>
-    <a href="burger.html" target="_blank"><img src="download (2).jpg" alt="" width="200px" height="200px" style="margin: 6px;"></a>
-    <a href="south_indian.html" target="_blank"><img src="download (3).jpg" alt="" width="200px" height="200px" style="margin: 6px;"></a>
-    <span style="margin: 80px; font-size: xx-large;">Biriyani</span>
-    <span style="margin-left: 100px; font-size: xx-large;">North Indian</span>
-    <span style="margin-left: 200px; font-size: xx-large;">Pizza</span>
-    <span style="margin-left: 250px; font-size: xx-large;">Burger</span>
-    <span style="margin-left: 200px; font-size: xx-large;">South Indian</span>
-
-    
+    <h2 style="background-color: coral; color: black;">ORDER FOOD ONLINE <img src="images.jpg" alt="" style="image-orientation: from-image; padding-top: 100px;"></h2>
+    <div class="menu">
+        <div class="menu-item">
+            <a href="biriyani.html" target="_blank">
+                <img src="download.jpg" alt="BIRIYANI" width="200px" height="300px" title="Biriyani">
+                <span>Biriyani</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="north_indian.html" target="_blank">
+                <img src="north_indian.jpg" alt="North Indian" width="300px" height="300px">
+                <span>North Indian</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="pizza.html" target="_blank">
+                <img src="download (1).jpg" alt="Pizza" width="300px" height="300px">
+                <span>Pizza</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="burger.html" target="_blank">
+                <img src="download (2).jpg" alt="Burger" width="300px" height="300px">
+                <span>Burger</span>
+            </a>
+        </div>
+        <div class="menu-item">
+            <a href="south_indian.html" target="_blank">
+                <img src="download (3).jpg" alt="South Indian" width="300px" height="300px">
+                <span>South Indian</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
